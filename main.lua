@@ -1,5 +1,3 @@
-class = "0"
-
 -- Add to in-game tooltips at mouse over (Like atlas loot)
 GameTooltip:HookScript("OnTooltipSetItem", function(tooltip, ...)
     addToolTip(tooltip)
@@ -14,19 +12,20 @@ function addToolTip(tooltip)
     local itemname, itemlink = tooltip:GetItem()
     
     if itemlink then
-      priority = searchForItemPrio(itemlink:match("item:(%d+):"))
+      priority, note = searchForItemPrioAndNote(itemlink:match("item:(%d+):")) -- Using the itemID match to values intable, returning a classPriority and note
     end
   
     if priority then
-        priority = string.format("%s", priority)
-        priority = classColour(priority)
-        tooltip:AddLine("|cFFE6007EPriority|r: "..priority, 1, 1, 1) -- "Priority:" = Pink, anything else is default white
-
-        note = searchForItemNote(itemlink:match("item:(%d+):"))
-        if note ~= "" then
-            note = string.format("%s", note)
-            note = classColour(note)
-            tooltip:AddLine("|cFFE6007ENote|r: "..note, 1, 1, 1) -- "Note:" = Pink, anything else is default white
+        if priority ~= "" then
+            priority = string.format("%s", priority)
+            priority = classColour(priority)
+            tooltip:AddLine("|cFFE6007EPriority|r: "..priority, 1, 1, 1) -- "Priority:" = Pink, anything else is default white
+    
+            if note ~= "" then
+                note = string.format("%s", note)
+                note = classColour(note)
+                tooltip:AddLine("|cFFE6007ENote|r: "..note, 1, 1, 1) -- "Note:" = Pink, anything else is default white
+            end
         end
     end
 end
@@ -53,20 +52,11 @@ function classColour(class)
     return class
 end
 
--- look for an item priority from the relevant loot table
-function searchForItemPrio(itemname)
+-- look for classPriority & note from the relevant loot table
+function searchForItemPrioAndNote(itemId)
     for index, value in next, Naxxramas_Loot do
-        if value["itemid"] == itemname then
-            return value["classPriority"]
-        end
-    end
-end
-
--- look for an item note from the relevant loot table
-function searchForItemNote(itemname)
-    for index, value in next, Naxxramas_Loot do
-        if value["itemid"] == itemname then
-            return value["note"]
+        if value["itemid"] == itemId then
+            return value["classPriority"], value["note"]
         end
     end
 end
