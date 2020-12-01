@@ -22,6 +22,7 @@ function addToolTip(tooltip)
 
         note = searchForItemNote(itemlink:match("item:(%d+):"))
         if note ~= "" then
+            note = classColour(note)
             note = string.format("%s", note)
             tooltip:AddLine("|cFFE6007ENote|r: "..note, 1, 1, 1)
         end
@@ -29,16 +30,24 @@ function addToolTip(tooltip)
 end
 
 -- Add class colours to each string returned from the loot tables
-function classColour(priority) 
-    priority = priority:gsub("Druid", "|cFFFF7C0ADruid|r")
-    priority = priority:gsub("Hunter", "|cFFAAD372Hunter|r")
-    priority = priority:gsub("Mage", "|cFF3FC7EBMage|r")
-    priority = priority:gsub("Priest", "|cFFFFFFFFPriest|r")
-    priority = priority:gsub("Rogue", "|cFFFFF468Rogue|r")
-    priority = priority:gsub("Shaman", "|cFF0070DDShaman|r")
-    priority = priority:gsub("Warlock", "|cFF8788EEWarlock|r")
-    priority = priority:gsub("Warrior", "|cFFC69B6DWarrior|r")
-    return priority
+function classColour(classString)
+    --Default Wow Classic class colours
+    classString = classString:gsub("Druid", "|cFFFF7C0ADruid|r")
+    classString = classString:gsub("Hunter", "|cFFAAD372Hunter|r")
+    classString = classString:gsub("Mage", "|cFF3FC7EBMage|r")
+    classString = classString:gsub("Paladin", "|cFFF48CBAPaladin|r")
+    classString = classString:gsub("Priest", "|cFFFFFFFFPriest|r")
+    classString = classString:gsub("Rogue", "|cFFFFF468Rogue|r")
+    classString = classString:gsub("Shaman", "|cFF0070DDShaman|r")
+    classString = classString:gsub("Warlock", "|cFF8788EEWarlock|r")
+    classString = classString:gsub("Warrior", "|cFFC69B6DWarrior|r")
+
+    -- Custom Names / Strings
+    classString = classString:gsub("Alopias", "|cFF3FC7EBAlopias|r") -- Mage
+    classString = classString:gsub("Kelthiz", "|cFFFFFFFFKelthiz|r") -- Priest
+    classString = classString:gsub("Zynnea", "|cFF8788EEZynnea|r") -- Warlock
+
+    return classString
 end
 
 -- look for a item priority from the relevant loot table
