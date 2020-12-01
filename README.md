@@ -4,7 +4,7 @@ Found here for Classic WoW: https://www.curseforge.com/wow/addons/oaks-loot-tool
 
 Gives Loot priority Tooltips to Raid Drops for the "SelfPreservation Society" Guild on Skullflame.
 
-**Customizing for you:**
+## **Customizing for you:**
 
 The ["classPriority"] can be configured as well as an additional ["note"] in each raids relevant .lua file.
 
