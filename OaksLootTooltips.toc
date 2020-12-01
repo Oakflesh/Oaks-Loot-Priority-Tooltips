@@ -1,0 +1,8 @@
+## Interface: 11305
+## Title: Oak's Loot Tooltips
+## Notes: Adds raid priorities and notes to Item Tooltips
+## Author: Oakflesh - Skullflame
+## Version: 0.1
+
+main.lua
+naxxramas.lua
