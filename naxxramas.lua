@@ -132,6 +132,7 @@ Naxxramas_Loot = {
     {["itemid"] = "22726", ["itemname"] = "Splinter of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},  
     {["itemid"] = "22733", ["itemname"] = "Staff Head of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},
     {["itemid"] = "22734", ["itemname"] = "Base of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},
+    {["itemid"] = "22727", ["itemname"] = "Frame of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},
 
 -- Trash Drops & Tier Tokens
     -- Trash
