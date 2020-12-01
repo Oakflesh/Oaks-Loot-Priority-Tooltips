@@ -1,4 +1,4 @@
-# Oaks-Loot-Tooltips
+# Oak's Loot Tooltips
 
 Found here for Classic WoW: https://www.curseforge.com/wow/addons/oaks-loot-tooltips
 
