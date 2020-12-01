@@ -24,4 +24,11 @@ SPS_Naxx_Loot = {
     {["itemid"] = "23001", ["itemname"] = "Eye of Diminution", ["classPriority"] = "None", ["note"] = ""},
     {["itemid"] = "23000", ["itemname"] = "Plated Abomination Ribcage", ["classPriority"] = "Warrior (DPS)", ["note"] = ""},
     {["itemid"] = "22808", ["itemname"] = "The Castigator", ["classPriority"] = "Rogue* > Warrior (DPS) = Rogue", ["note"] = "*Rogue has Anubisath Warhammer"},
+
+-- Deathknight Wing --
+    -- Instructor Razuvious
+
+    -- Gothik the Harvester
+
+    -- The Four Horsemen 
 }
