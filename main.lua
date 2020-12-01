@@ -20,13 +20,13 @@ function addToolTip(tooltip)
     if priority then
         priority = string.format("%s", priority)
         priority = classColour(priority)
-        tooltip:AddLine("|cFFE6007EPriority|r: "..priority, 1, 1, 1)
+        tooltip:AddLine("|cFFE6007EPriority|r: "..priority, 1, 1, 1) -- "Priority:" = Pink, anything else is default white
 
         note = searchForItemNote(itemlink:match("item:(%d+):"))
         if note ~= "" then
             note = string.format("%s", note)
             note = classColour(note)
-            tooltip:AddLine("|cFFE6007ENote|r: "..note, 1, 1, 1)
+            tooltip:AddLine("|cFFE6007ENote|r: "..note, 1, 1, 1) -- "Note:" = Pink, anything else is default white
         end
     end
 end
@@ -34,7 +34,7 @@ end
 -- Add class colours to each string returned from the loot tables
 function classColour(class)
 
-    --Default Wow Classic class colours
+    -- Default Wow Classic class colours
     class = class:gsub("Druid", "|cFFFF7C0ADruid|r")
     class = class:gsub("Hunter", "|cFFAAD372Hunter|r")
     class = class:gsub("Mage", "|cFF3FC7EBMage|r")
