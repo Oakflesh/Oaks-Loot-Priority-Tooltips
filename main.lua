@@ -18,12 +18,12 @@ function addToolTip(tooltip)
     if priority then
         priority = string.format("%s", priority)
         priority = classColour(priority)
-        tooltip:AddLine("Prio: "..priority, 1, 1, 1)
+        tooltip:AddLine("|cFFE6007EPriority|r: "..priority, 1, 1, 1)
 
         note = searchForItemNote(itemlink:match("item:(%d+):"))
         if note ~= "" then
             note = string.format("%s", note)
-            tooltip:AddLine("Note: "..note, 1, 1, 1)
+            tooltip:AddLine("|cFFE6007ENote|r: "..note, 1, 1, 1)
         end
     end
 end
@@ -43,7 +43,7 @@ end
 
 -- look for a item priority from the relevant loot table
 function searchForItemPrio(itemname)
-    for index, value in next, SPS_Naxx_Loot do
+    for index, value in next, Naxxramas_Loot do
         if value["itemid"] == itemname then
             return value["classPriority"]
         end
@@ -52,7 +52,7 @@ end
 
 -- look for a item note from the relevant loot table
 function searchForItemNote(itemname)
-    for index, value in next, SPS_Naxx_Loot do
+    for index, value in next, Naxxramas_Loot do
         if value["itemid"] == itemname then
             return value["note"]
         end
