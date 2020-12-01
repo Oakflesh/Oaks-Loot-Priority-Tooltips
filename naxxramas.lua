@@ -117,7 +117,7 @@ Naxxramas_Loot = {
     {["itemid"] = "22799", ["itemname"] = "Soulseeker", ["classPriority"] = "Mage > Warlock = Priest (Shadow)", ["note"] = ""},
     {["itemid"] = "23053", ["itemname"] = "Stormrage's Talisman of Seething", ["classPriority"] = "Melee = Hunter", ["note"] = ""},
     {["itemid"] = "22520", ["itemname"] = "The Phylactery of Kel'Thuzad", ["classPriority"] = "Tanks* > DPS", ["note"] = "*Tank without DFT Prio"},
-    {["itemid"] = "23577", ["itemname"] = "The Hungering Cold", ["classPriority"] = "Warrior (Tank)> Rogue (Sword)* > Warrior (DPS)*", ["note"] = "*If Warrior (DPS) has CTS or better MH then "=" Prio"},
+    {["itemid"] = "23577", ["itemname"] = "The Hungering Cold", ["classPriority"] = "Warrior (Tank) > Rogue (Sword)* > Warrior (DPS)*", ["note"] = "*If Warrior (DPS) has CTS or better MH then "=" Prio"},
     -- Rings
     {["itemid"] = "23064", ["itemname"] = "Ring of the Dreamwalker", ["classPriority"] = "Druid", ["note"] = ""},
     {["itemid"] = "23067", ["itemname"] = "Ring of the Cryptstalker", ["classPriority"] = "Hunter", ["note"] = ""},
