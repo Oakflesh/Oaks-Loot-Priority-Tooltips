@@ -89,10 +89,49 @@ Naxxramas_Loot = {
     {["itemid"] = "22947", ["itemname"] = "Pendant of Forgotten Names", ["classPriority"] = "None", ["note"] = ""},
     {["itemid"] = "22807", ["itemname"] = "Wraith Blade", ["classPriority"] = "Warlock* = Mage*", ["note"] = "*Prio Lockout with Brimstone Staff"},
 
-
-
-
-
+-- Frostwyrm Lair --
+    -- Sapphiron
+    {["itemid"] = "23242", ["itemname"] = "Claw of the Frost Wyrm", ["classPriority"] = "Rogue = Warrior (DPS) > Hunter", ["note"] = ""},
+    {["itemid"] = "23050", ["itemname"] = "Cloak of the Necropolis", ["classPriority"] = "Mage = Warlock > Priest (Shadow)", ["note"] = ""},
+    {["itemid"] = "23047", ["itemname"] = "Eye of the Dead", ["classPriority"] = "Healers", ["note"] = ""},
+    {["itemid"] = "23040", ["itemname"] = "Glyph of Deflection", ["classPriority"] = "None", ["note"] = ""},
+    {["itemid"] = "23049", ["itemname"] = "Sapphiron's Left Eye", ["classPriority"] = "Warlock* = Mage*", ["note"] = "*Prio Lockout with Brimstone Staff"},
+    {["itemid"] = "23048", ["itemname"] = "Sapphiron's Right Eye", ["classPriority"] = "Healers*", ["note"] = "*Prio Lockout with Noth's Frigid Heart"},
+    {["itemid"] = "23045", ["itemname"] = "Shroud of Dominion", ["classPriority"] = "Hunter = Melee", ["note"] = ""},
+    {["itemid"] = "23041", ["itemname"] = "Slayer's Crest", ["classPriority"] = "Melee* = Hunter", ["note"] = "*Prio Lockout with KotS / Jom Gabbar Trinkets"},
+    {["itemid"] = "23043", ["itemname"] = "The Face of Death", ["classPriority"] = "Warrior (Tank)", ["note"] = ""},
+    {["itemid"] = "23046", ["itemname"] = "The Restrained Essence of Sapphiron", ["classPriority"] = "Warlock > Mage > Priest (Shadow)", ["note"] = ""},
+    {["itemid"] = "23545", ["itemname"] = "Power of the Scourge", ["classPriority"] = "Casters", ["note"] = ""},
+    {["itemid"] = "23547", ["itemname"] = "Resilience of the Scourge", ["classPriority"] = "Healers", ["note"] = ""},
+    {["itemid"] = "23548", ["itemname"] = "Might of the Scourge", ["classPriority"] = "Physical DPS = Tanks", ["note"] = ""},
+    {["itemid"] = "23549", ["itemname"] = "Fortitude of the Scourge", ["classPriority"] = "Tanks > Warlock", ["note"] = ""},
+    -- Kel'Thuzad
+    {["itemid"] = "22821", ["itemname"] = "Doomfinger", ["classPriority"] = "Mage > Warlock", ["note"] = ""},
+    {["itemid"] = "23057", ["itemname"] = "Gem of Trapped Innocents", ["classPriority"] = "Mage = Warlock", ["note"] = ""},
+    {["itemid"] = "23054", ["itemname"] = "Gressil, Dawn of Ruin", ["classPriority"] = "Warrior (DPS)* = Rogue (Sword) > Warrior (Tank)", ["note"] = "*Edgemaster Prio"},
+    {["itemid"] = "23056", ["itemname"] = "Hammer of the Twisting Nether", ["classPriority"] = "Healer", ["note"] = ""},
+    {["itemid"] = "22802", ["itemname"] = "Kingsfall", ["classPriority"] = "Rogue (Dagger) > Warrior* > Hunter", ["note"] = "*Warrior (DPS) with AGCL / Edge has prio"},
+    {["itemid"] = "22812", ["itemname"] = "Nerubian Slavemaker", ["classPriority"] = "Hunter > Warrior = Rogue", ["note"] = ""},
+    {["itemid"] = "22798", ["itemname"] = "Might of Menethil", ["classPriority"] = "Shaman (Enhance) > Warrior", ["note"] = ""},
+    {["itemid"] = "22819", ["itemname"] = "Shield of Condemnation", ["classPriority"] = "Shaman (Resto)", ["note"] = ""},
+    {["itemid"] = "22799", ["itemname"] = "Soulseeker", ["classPriority"] = "Mage > Warlock = Priest (Shadow)", ["note"] = ""},
+    {["itemid"] = "23053", ["itemname"] = "Stormrage's Talisman of Seething", ["classPriority"] = "Melee = Hunter", ["note"] = ""},
+    {["itemid"] = "22520", ["itemname"] = "The Phylactery of Kel'Thuzad", ["classPriority"] = "Tanks* > DPS", ["note"] = "*Tank without DFT Prio"},
+    {["itemid"] = "23577", ["itemname"] = "The Hungering Cold", ["classPriority"] = "Warrior (Tank)> Rogue (Sword)* > Warrior (DPS)*", ["note"] = "*If Warrior (DPS) has CTS or better MH then "=" Prio"},
+    -- Rings
+    {["itemid"] = "23064", ["itemname"] = "Ring of the Dreamwalker", ["classPriority"] = "Druid", ["note"] = ""},
+    {["itemid"] = "23067", ["itemname"] = "Ring of the Cryptstalker", ["classPriority"] = "Hunter", ["note"] = ""},
+    {["itemid"] = "23062", ["itemname"] = "Frostfire Ring", ["classPriority"] = "Mage", ["note"] = ""},
+    {["itemid"] = "23066", ["itemname"] = "Ring of Repemption ", ["classPriority"] = "Paladin", ["note"] = ""},
+    {["itemid"] = "23061", ["itemname"] = "Ring of Faith", ["classPriority"] = "Priest", ["note"] = ""},
+    {["itemid"] = "23060", ["itemname"] = "Bonescythe Ring", ["classPriority"] = "Rogue", ["note"] = ""},
+    {["itemid"] = "23065", ["itemname"] = "Ring of the Earthshatterer", ["classPriority"] = "Shaman", ["note"] = ""},
+    {["itemid"] = "23063", ["itemname"] = "Plagueheart Ring", ["classPriority"] = "Warlock", ["note"] = ""},
+    {["itemid"] = "23059", ["itemname"] = "Ring of the Dreadnaught", ["classPriority"] = "Warrior", ["note"] = ""},
+    -- Atiesh
+    {["itemid"] = "22726", ["itemname"] = "Splinter of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},  
+    {["itemid"] = "22733", ["itemname"] = "Staff Head of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},
+    {["itemid"] = "22734", ["itemname"] = "Base of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},
 
 -- Trash Drops & Tier Tokens
     -- Trash
