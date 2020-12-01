@@ -1,4 +1,4 @@
-## Interface: 11302
+## Interface: 11305
 ## Title: Oak's Loot Tooltips
 ## Notes: Adds raid priorities and notes to Item Tooltips
 ## Author: Oakflesh - Skullflame
