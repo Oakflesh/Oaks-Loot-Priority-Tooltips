@@ -88,4 +88,49 @@ Naxxramas_Loot = {
     {["itemid"] = "22804", ["itemname"] = "Maexxna's Fang", ["classPriority"] = "Rogue (Dagger) > Warrior (DPS)* > Melee", ["note"] = "*Warrior (DPS) has AGCL / Edge"},
     {["itemid"] = "22947", ["itemname"] = "Pendant of Forgotten Names", ["classPriority"] = "None", ["note"] = ""},
     {["itemid"] = "22807", ["itemname"] = "Wraith Blade", ["classPriority"] = "Warlock* = Mage*", ["note"] = "*Prio Lockout with Brimstone Staff"},
+
+
+
+
+
+
+-- Trash Drops & Tier Tokens
+    -- Trash
+    {["itemid"] = "23666", ["itemname"] = "Belt of the Grand Crusader", ["classPriority"] = "None", ["note"] = ""},
+    {["itemid"] = "23226", ["itemname"] = "Ghoul Skin Tunic", ["classPriority"] = "Druid (Feral) > Melee", ["note"] = ""},
+    {["itemid"] = "23663", ["itemname"] = "Girdle of Elemental Fury", ["classPriority"] = "None", ["note"] = ""},
+    {["itemid"] = "23044", ["itemname"] = "Harbinger of Doom", ["classPriority"] = "Rogue (Dagger) > Warrior (DPS)* > Melee", ["note"] = "*Warrior has AGCL / Edge"},
+    {["itemid"] = "23668", ["itemname"] = "Leggings of the Grand Crusader", ["classPriority"] = "None", ["note"] = ""},
+    {["itemid"] = "23221", ["itemname"] = "Misplaced Servo Arm", ["classPriority"] = "Melee = Shaman (Enhance)*", ["note"] = "*Shamans will use for TBC"},
+    {["itemid"] = "23069", ["itemname"] = "Necro-Knight's Garb", ["classPriority"] = "None", ["note"] = ""},
+    {["itemid"] = "23667", ["itemname"] = "Spaulders of the Grand Crusader", ["classPriority"] = "None", ["note"] = ""},
+    {["itemid"] = "23237", ["itemname"] = "Ring of the Eternal Flame", ["classPriority"] = "Mage > Warlock", ["note"] = ""},
+    {["itemid"] = "23238", ["itemname"] = "Stygian Buckler", ["classPriority"] = "None", ["note"] = ""},
+    -- Mage / Warlock / Priest
+    {["itemid"] = "22367", ["itemname"] = "Desecrated Circlet", ["classPriority"] = "Mage = Warlock = Priest (Holy)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22368", ["itemname"] = "Desecrated Shoulderpads", ["classPriority"] = "Warlock = Priest (Holy) > Mage", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22351", ["itemname"] = "Desecrated Robe", ["classPriority"] = "Mage = Warlock > Priest (Holy)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22369", ["itemname"] = "Desecrated Bindings", ["classPriority"] = "Priest (Holy) > Mage = Warlock", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22371", ["itemname"] = "Desecrated Gloves", ["classPriority"] = "Priest (Holy) > Mage = Warlock", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22370", ["itemname"] = "Desecrated Belt", ["classPriority"] = "Priest (Holy) = Warlock > Mage", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22366", ["itemname"] = "Desecrated Leggings", ["classPriority"] = "Warlock > Priest (Holy) = Mage", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22372", ["itemname"] = "Desecrated Sandals", ["classPriority"] = "Mage = Warlock = Priest (Holy)", ["note"] = "Prio will remain until guild decides to remove"},
+    -- Shaman / Druid / Hunter / Paladin
+    {["itemid"] = "22360", ["itemname"] = "Desecrated Headpiece", ["classPriority"] = "Shaman (Resto) = Hunter > Druid (Resto)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22361", ["itemname"] = "Desecrated Spaulders", ["classPriority"] = "Shaman (Resto) = Hunter = Druid (Resto)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22350", ["itemname"] = "Desecrated Tunic", ["classPriority"] = "Shaman (Resto) = Hunter = Druid (Resto)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22362", ["itemname"] = "Desecrated Wristguards", ["classPriority"] = "Shaman (Resto) = Hunter > Druid (Resto)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22364", ["itemname"] = "Desecrated Handguards", ["classPriority"] = "Shaman (Resto) = Druid (Resto) > Hunter", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22363", ["itemname"] = "Desecrated Girdle", ["classPriority"] = "Shaman (Resto) = Hunter = Druid (Resto)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22359", ["itemname"] = "Desecrated Legguards", ["classPriority"] = "Shaman (Resto) = Hunter = Druid (Resto)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22365", ["itemname"] = "Desecrated Boots", ["classPriority"] = "Shaman (Resto) = Hunter = Druid (Resto)", ["note"] = "Prio will remain until guild decides to remove"},
+    -- Warrior / Rogue
+    {["itemid"] = "22353", ["itemname"] = "Desecrated Helmet", ["classPriority"] = "Warrior (Tank) > Rogue > Warrior (DPS)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22349", ["itemname"] = "Desecrated Breastplate", ["classPriority"] = "Rogue = Warrior (Tank) > Warrior (DPS)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22354", ["itemname"] = "Desecrated Pauldrons", ["classPriority"] = "Rogue > Warrior (Tank) > Warrior (DPS)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22355", ["itemname"] = "Desecrated Bracers", ["classPriority"] = "Warrior (Tank) > Rogue > Warrior (DPS)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22357", ["itemname"] = "Desecrated Gauntlets", ["classPriority"] = "Rogue > Warrior (Tank) > Warrior (DPS)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22356", ["itemname"] = "Desecrated Waistguard", ["classPriority"] = "Rogue > Warrior (Tank) > Warrior (DPS)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22352", ["itemname"] = "Desecrated Legplates", ["classPriority"] = "Rogue > Warrior (Tank) > Warrior (DPS)", ["note"] = "Prio will remain until guild decides to remove"},
+    {["itemid"] = "22358", ["itemname"] = "Desecrated Sabatons", ["classPriority"] = "Rogue > Warrior (Tank) > Warrior (DPS)", ["note"] = "Prio will remain until guild decides to remove"},
 }
