@@ -9,10 +9,10 @@ ItemRefTooltip:HookScript("OnTooltipSetItem", function(tooltip, ...)
 end)
 
 function addToolTip(tooltip)
-    local itemname, itemlink = tooltip:GetItem()
+    local itemName, itemLink = tooltip:GetItem()
     
-    if itemlink then
-      priority, note = searchForItemPrioAndNote(itemlink:match("item:(%d+):")) -- Using the itemID match to values intable, returning a class priority and note
+    if itemLink then
+      priority, note = searchForItemPrioAndNote(itemLink:match("item:(%d+):")) -- Using the in-game item link find the Item ID in the string and search through the table to find a match.
     end
   
     if priority then
@@ -54,9 +54,39 @@ end
 
 -- look for class priority & note from the relevant loot table
 function searchForItemPrioAndNote(itemId)
-    for index, value in next, Naxxramas_Loot do
-        if value["itemid"] == itemId then
-            return value["classpriority"], value["note"]
+    for index, value in next, moltenCore do
+        if value["itemId"] == itemId then
+            return value["classPriority"], value["note"]
+        end
+    end
+
+    for index, value in next, blackWingLair do
+        if value["itemId"] == itemId then
+            return value["classPriority"], value["note"]
+        end
+    end
+
+    for index, value in next, zulGurub do
+        if value["itemId"] == itemId then
+            return value["classPriority"], value["note"]
+        end
+    end
+
+    for index, value in next, ahnQirajRuins do
+        if value["itemId"] == itemId then
+            return value["classPriority"], value["note"]
+        end
+    end
+
+    for index, value in next, ahnQirajTemple do
+        if value["itemId"] == itemId then
+            return value["classPriority"], value["note"]
+        end
+    end
+
+    for index, value in next, naxxramas do
+        if value["itemId"] == itemId then
+            return value["classPriority"], value["note"]
         end
     end
 end
