@@ -12,7 +12,7 @@ function addToolTip(tooltip)
     local itemname, itemlink = tooltip:GetItem()
     
     if itemlink then
-      priority, note = searchForItemPrioAndNote(itemlink:match("item:(%d+):")) -- Using the itemID match to values intable, returning a classPriority and note
+      priority, note = searchForItemPrioAndNote(itemlink:match("item:(%d+):")) -- Using the itemID match to values intable, returning a class priority and note
     end
   
     if priority then
@@ -52,11 +52,11 @@ function classColour(class)
     return class
 end
 
--- look for classPriority & note from the relevant loot table
+-- look for class priority & note from the relevant loot table
 function searchForItemPrioAndNote(itemId)
     for index, value in next, Naxxramas_Loot do
         if value["itemid"] == itemId then
-            return value["classPriority"], value["note"]
+            return value["classpriority"], value["note"]
         end
     end
 end
