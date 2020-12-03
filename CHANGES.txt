@@ -1,0 +1,10 @@
+lightweight tag 36aa47013385987f058836378d37febc07e502b8 v1.2-Release
+Author:	GitHub <noreply@github.com>
+Date:	Wed Dec 2 12:20:20 2020 +0000
+
+commit cd83d8dd83e286ea329df6ee8cbcaa424adfe2d5
+Author: Oakflesh <Oakflesh@gmail.com>
+Date:   Wed Dec 2 11:29:49 2020 +0000
+
+    Added other Raids + Expanded search function, cleared up some variables
+
