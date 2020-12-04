@@ -9,3 +9,5 @@ Gives Loot priority Tooltips to Raid Drops for the "SelfPreservation Society" Gu
 The ["classPriority"] can be configured as well as an additional ["note"] in each raids relevant .lua file.
 
 ["classPriority"] will only show if it is not blank (e.g. ""), the ["note"] will only show if ["classPriority"] shows, but will also remain hidden if blank as well.
+
+If the ["classPriority"] is changed to "NoteOnly" - only the note for the selected item will appear.
