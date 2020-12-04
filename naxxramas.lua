@@ -9,7 +9,7 @@ naxxramas = {
     -- Grobbulus
     {["itemId"] = "22967", ["itemName"] = "Icy Scale Spaulders", ["classPriority"] = "Hunter = Shaman (Enhance) > Warrior", ["note"] = "Free GP Cost - Frost Resistance"},
     {["itemId"] = "22810", ["itemName"] = "Toxin Injector", ["classPriority"] = "None", ["note"] = ""},
-    {["itemId"] = "22988", ["itemName"] = "The End of Dreams", ["classPriority"] = "Priest (Shadow) = Druid (Resto) > Druid (Cat)", ["note"] = "*AQ Mace is 5 less AP, but 70+ Armour"},
+    {["itemId"] = "22988", ["itemName"] = "The End of Dreams", ["classPriority"] = "Priest (Shadow) = Druid (Resto) > Druid (Cat)*", ["note"] = "*AQ Mace is 5 less AP, but 70+ Armour"},
     {["itemId"] = "22803", ["itemName"] = "Midnight Haze", ["classPriority"] = "Priest (Shadow) > Casters", ["note"] = ""},
     {["itemId"] = "22968", ["itemName"] = "Glacial Mantle", ["classPriority"] = "None", ["note"] = "Free GP Cost - Frost Resistance"},
     -- Gluth
@@ -32,7 +32,7 @@ naxxramas = {
     {["itemId"] = "23004", ["itemName"] = "Idol of Longevity", ["classPriority"] = "Druid (Resto)", ["note"] = ""},
     {["itemId"] = "23219", ["itemName"] = "Girdle of the Mentor", ["classPriority"] = "Warrior (Tank)* > Warrior (DPS)* > Warrior", ["note"] = "*No Onslaught"},
     {["itemId"] = "23017", ["itemName"] = "Veil of Eclipse", ["classPriority"] = "Priest (Shadow)", ["note"] = ""},
-    {["itemId"] = "23014", ["itemName"] = "Iblis, Blade of the Fallen Seraph", ["classPriority"] = "Rogue (Swords) = Warrior (DPS)*", ["note"] = "*Edgemaster Prio"},
+    {["itemId"] = "23014", ["itemName"] = "Iblis, Blade of the Fallen Seraph", ["classPriority"] = "Rogue (Swords) = Warrior (DPS)*", ["note"] = "*Edgemasters"},
     -- Gothik the Harvester
     {["itemId"] = "23073", ["itemName"] = "Boots of Displacement", ["classPriority"] = "None", ["note"] = ""},
     {["itemId"] = "23032", ["itemName"] = "Glacial Headdress", ["classPriority"] = "None", ["note"] = "Free GP Cost - Frost Resistance"},
@@ -53,7 +53,7 @@ naxxramas = {
     {["itemId"] = "23029", ["itemName"] = "Noth's Frigid Heart", ["classPriority"] = "Healers*", ["note"] = "*Prio Lockout with Sapphiron's Right Eye"},
     {["itemId"] = "23031", ["itemName"] = "Band of the Inevitable", ["classPriority"] = "Warlock > Mage = Priest (Shadow)", ["note"] = ""},
     {["itemId"] = "23028", ["itemName"] = "Hailstone Band", ["classPriority"] = "Melee", ["note"] = "Free GP Cost - Frost Resistance"},
-    {["itemId"] = "22816", ["itemName"] = "Hatchet of Sundered Bone", ["classPriority"] = "Warrior (DPS)* > Warrior (DPS)", ["note"] = "*Orc / Edgemaster Prio"},
+    {["itemId"] = "22816", ["itemName"] = "Hatchet of Sundered Bone", ["classPriority"] = "Warrior (DPS)* > Warrior (DPS)", ["note"] = "*Orc / Edgemasters"},
     {["itemId"] = "23006", ["itemName"] = "Libram of Light", ["classPriority"] = "None", ["note"] = ""},
     {["itemId"] = "23005", ["itemName"] = "Totem of Flowing Water", ["classPriority"] = "Shaman (Resto)", ["note"] = ""},
     -- Heigan the Unclean
@@ -81,11 +81,11 @@ naxxramas = {
     {["itemId"] = "22943", ["itemName"] = "Malice Stone Pendant", ["classPriority"] = "Mage = Warlock", ["note"] = ""},
     {["itemId"] = "22941", ["itemName"] = "Polar Shoulder Pads", ["classPriority"] = "None", ["note"] = "Free GP Cost - Frost Resistance"},
     {["itemId"] = "22942", ["itemName"] = "The Widow's Embrace", ["classPriority"] = "Healers", ["note"] = ""},
-    {["itemId"] = "22806", ["itemName"] = "Widow's Remorse", ["classPriority"] = "Warrior (Tank)* > Rogue (Swords)", ["note"] = "*Edgemaster Prio"},
+    {["itemId"] = "22806", ["itemName"] = "Widow's Remorse", ["classPriority"] = "Warrior (Tank)* > Rogue (Swords)", ["note"] = "*Edgemasters"},
     -- Maexxna
     {["itemId"] = "23220", ["itemName"] = "Crystal Webbed Robe", ["classPriority"] = "Priest (Shadow)", ["note"] = ""},
     {["itemId"] = "22954", ["itemName"] = "Kiss of the Spider", ["classPriority"] = "Druid (Bear) = Warrior (DPS) = Rogue", ["note"] = "*Prio Lockout with Crest / Jom Gabbar Trinket"},
-    {["itemId"] = "22804", ["itemName"] = "Maexxna's Fang", ["classPriority"] = "Rogue (Dagger) > Warrior (DPS)* > Melee", ["note"] = "*Warrior (DPS) has AGCL / Edge"},
+    {["itemId"] = "22804", ["itemName"] = "Maexxna's Fang", ["classPriority"] = "Rogue (Dagger) > Warrior (DPS)* > Melee", ["note"] = "*AGCL / Edgemasters"},
     {["itemId"] = "22947", ["itemName"] = "Pendant of Forgotten Names", ["classPriority"] = "None", ["note"] = ""},
     {["itemId"] = "22807", ["itemName"] = "Wraith Blade", ["classPriority"] = "Warlock* = Mage*", ["note"] = "*Prio Lockout with Brimstone Staff"},
 
@@ -108,15 +108,15 @@ naxxramas = {
     -- Kel'Thuzad
     {["itemId"] = "22821", ["itemName"] = "Doomfinger", ["classPriority"] = "Mage > Warlock", ["note"] = ""},
     {["itemId"] = "23057", ["itemName"] = "Gem of Trapped Innocents", ["classPriority"] = "Mage = Warlock", ["note"] = ""},
-    {["itemId"] = "23054", ["itemName"] = "Gressil, Dawn of Ruin", ["classPriority"] = "Warrior (DPS)* = Rogue (Sword) > Warrior (Tank)", ["note"] = "*Edgemaster Prio"},
+    {["itemId"] = "23054", ["itemName"] = "Gressil, Dawn of Ruin", ["classPriority"] = "Warrior (DPS)* = Rogue (Sword) > Warrior (Tank)", ["note"] = "*Edgemasters"},
     {["itemId"] = "23056", ["itemName"] = "Hammer of the Twisting Nether", ["classPriority"] = "Healer", ["note"] = ""},
-    {["itemId"] = "22802", ["itemName"] = "Kingsfall", ["classPriority"] = "Rogue (Dagger) > Warrior* > Hunter", ["note"] = "*Warrior with AGCL / Edge has prio"},
+    {["itemId"] = "22802", ["itemName"] = "Kingsfall", ["classPriority"] = "Rogue (Dagger) > Warrior* > Hunter", ["note"] = "*AGCL / Edgemasters"},
     {["itemId"] = "22812", ["itemName"] = "Nerubian Slavemaker", ["classPriority"] = "Hunter > Warrior = Rogue", ["note"] = ""},
     {["itemId"] = "22798", ["itemName"] = "Might of Menethil", ["classPriority"] = "Shaman (Enhance) > Warrior", ["note"] = ""},
     {["itemId"] = "22819", ["itemName"] = "Shield of Condemnation", ["classPriority"] = "Shaman (Resto)", ["note"] = ""},
     {["itemId"] = "22799", ["itemName"] = "Soulseeker", ["classPriority"] = "Mage > Warlock = Priest (Shadow)", ["note"] = ""},
     {["itemId"] = "23053", ["itemName"] = "Stormrage's Talisman of Seething", ["classPriority"] = "Melee = Hunter", ["note"] = ""},
-    {["itemId"] = "22520", ["itemName"] = "The Phylactery of Kel'Thuzad", ["classPriority"] = "Tanks* > DPS", ["note"] = "*Tank without DFT Prio"},
+    {["itemId"] = "22520", ["itemName"] = "The Phylactery of Kel'Thuzad", ["classPriority"] = "Tanks* > DPS", ["note"] = "*Only Tank without DFT"},
     {["itemId"] = "23577", ["itemName"] = "The Hungering Cold", ["classPriority"] = "Warrior (Tank) > Rogue (Sword)* > Warrior (DPS)*", ["note"] = "*If Warrior (DPS) has CTS or better MH then \"=\" Prio"},
     -- Rings
     {["itemId"] = "23064", ["itemName"] = "Ring of the Dreamwalker", ["classPriority"] = "Druid", ["note"] = ""},
@@ -143,7 +143,7 @@ naxxramas = {
     {["itemId"] = "23664", ["itemName"] = "Pauldrons of Elemental Fury", ["classPriority"] = "Shaman (Resto)", ["note"] = ""},
     {["itemId"] = "23665", ["itemName"] = "Leggings of Elemental Fury", ["classPriority"] = "Shaman (Resto)", ["note"] = ""},
     {["itemId"] = "23226", ["itemName"] = "Ghoul Skin Tunic", ["classPriority"] = "Druid (Feral) > Melee", ["note"] = ""},
-    {["itemId"] = "23044", ["itemName"] = "Harbinger of Doom", ["classPriority"] = "Rogue (Dagger) > Warrior (DPS)* > Melee", ["note"] = "*Warrior has AGCL / Edge"},
+    {["itemId"] = "23044", ["itemName"] = "Harbinger of Doom", ["classPriority"] = "Rogue (Dagger) > Warrior (DPS)* > Melee", ["note"] = "*AGCL / Edgemasters"},
     {["itemId"] = "23221", ["itemName"] = "Misplaced Servo Arm", ["classPriority"] = "Melee = Shaman (Enhance)*", ["note"] = "*Shamans will use for TBC"},
     {["itemId"] = "23069", ["itemName"] = "Necro-Knight's Garb", ["classPriority"] = "None", ["note"] = ""},
 
