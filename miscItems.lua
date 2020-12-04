@@ -6,7 +6,7 @@ miscItems = {
     {["itemId"] = "6048", ["itemName"] = "Shadow Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Loatheb"},
     {["itemId"] = "13459", ["itemName"] = "Greater Shadow Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Loatheb"},
 
-    {["itemId"] = "7257", ["itemName"] = "Fire Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Faerlina & Four Horsemen"},
+    {["itemId"] = "6049", ["itemName"] = "Fire Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Faerlina & Four Horsemen"},
     {["itemId"] = "13457", ["itemName"] = "Greater Fire Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Faerlina & Four Horsemen"},
 
     {["itemId"] = "6050", ["itemName"] = "Frost Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Sapphiron & Kel'Thuzad"},

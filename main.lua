@@ -16,7 +16,7 @@ function addToolTip(tooltip)
     end
   
     if priority then
-        if priority ~= "" then
+        if priority ~= "" and priority ~= "NoteOnly" then
             priority = string.format("%s", priority)
             priority = classColour(priority)
             tooltip:AddLine("|cFFE6007EPriority|r: "..priority, 1, 1, 1) -- "Priority:" = Pink, anything else is default white
@@ -26,8 +26,7 @@ function addToolTip(tooltip)
                 note = classColour(note)
                 tooltip:AddLine("|cFFE6007ENote|r: "..note, 1, 1, 1) -- "Note:" = Pink, anything else is default white
             end
-
-        elseif priority = "NoteOnly" then
+        elseif priority == "NoteOnly" then
             if note ~= "" then
                 note = string.format("%s", note)
                 note = classColour(note)
