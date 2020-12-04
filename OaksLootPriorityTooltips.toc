@@ -11,3 +11,4 @@ zulGurub.lua
 ahnQirajRuins.lua
 ahnQirajTemple.lua
 naxxramas.lua
+miscItems.lua
