@@ -10,7 +10,7 @@ miscItems = {
     {["itemId"] = "13457", ["itemName"] = "Greater Fire Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Faerlina & Four Horsemen"},
 
     {["itemId"] = "6050", ["itemName"] = "Frost Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Sapphiron & Kel'Thuzad"},
-    {["itemId"] = "17575", ["itemName"] = "Greater Frost Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Sapphiron & Kel'Thuzad"},
+    {["itemId"] = "13456", ["itemName"] = "Greater Frost Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Sapphiron & Kel'Thuzad"},
 
     {["itemId"] = "13461", ["itemName"] = "Greater Arcane Protection Potion", ["classPriority"] = "NoteOnly", ["note"] = "Used for Gothick"},
 }
