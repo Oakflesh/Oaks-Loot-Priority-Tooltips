@@ -129,10 +129,10 @@ naxxramas = {
     {["itemId"] = "23063", ["itemName"] = "Plagueheart Ring", ["classPriority"] = "Warlock", ["note"] = ""},
     {["itemId"] = "23059", ["itemName"] = "Ring of the Dreadnaught", ["classPriority"] = "Warrior", ["note"] = ""},
     -- Atiesh
-    {["itemId"] = "22726", ["itemName"] = "Splinter of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},  
-    {["itemId"] = "22733", ["itemName"] = "Staff Head of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},
-    {["itemId"] = "22734", ["itemName"] = "Base of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},
-    {["itemId"] = "22727", ["itemName"] = "Frame of Atiesh", ["classPriority"] = "Zynnea = Kelthiz = Alopias", ["note"] = "/Roll on Drop on first drop"},
+    {["itemId"] = "22726", ["itemName"] = "Splinter of Atiesh", ["classPriority"] = "Kelthiz > Zynnea = Alopias", ["note"] = "Kelthiz or /Roll on Drop on first drop"},  
+    {["itemId"] = "22733", ["itemName"] = "Staff Head of Atiesh", ["classPriority"] = "Kelthiz > Zynnea = Alopias", ["note"] = "Kelthiz or /Roll on Drop on first drop"},
+    {["itemId"] = "22734", ["itemName"] = "Base of Atiesh", ["classPriority"] = "Kelthiz > Zynnea = Alopias", ["note"] = "Kelthiz or /Roll on Drop on first drop"},
+    {["itemId"] = "22727", ["itemName"] = "Frame of Atiesh", ["classPriority"] = "Kelthiz > Zynnea = Alopias", ["note"] = "Kelthiz or /Roll on Drop on first drop"},
 
 -- Trash Drops & Tier Tokens
     -- Trash
@@ -146,7 +146,6 @@ naxxramas = {
     {["itemId"] = "23044", ["itemName"] = "Harbinger of Doom", ["classPriority"] = "Rogue (Dagger) > Warrior (DPS)* > Melee", ["note"] = "*AGCL / Edgemasters"},
     {["itemId"] = "23221", ["itemName"] = "Misplaced Servo Arm", ["classPriority"] = "Melee = Shaman (Enhance)*", ["note"] = "*Shamans will use for TBC"},
     {["itemId"] = "23069", ["itemName"] = "Necro-Knight's Garb", ["classPriority"] = "None", ["note"] = ""},
-
     {["itemId"] = "23237", ["itemName"] = "Ring of the Eternal Flame", ["classPriority"] = "Mage > Warlock", ["note"] = ""},
     {["itemId"] = "23238", ["itemName"] = "Stygian Buckler", ["classPriority"] = "None", ["note"] = ""},
     -- Mage / Warlock / Priest
